@@ -16,7 +16,9 @@ header .sumate{
     padding: 10px 20px;
     border-radius: 3px;
     position: absolute;
-    top: 50px;
+    top: 60px;
+    left: 100px;
+    color: #000;
 }
 header .sumate:hover{
     padding: 15px 25px;
@@ -31,8 +33,8 @@ header img{
 header ul{
     float: right;
     position: absolute;
-    right: 100px;
-    top: 50px;
+    right: 120px;
+    top: 60px;
 }
 header ul li{
     display: inline-block;
@@ -40,6 +42,8 @@ header ul li{
 }
 header li a{
     text-decoration: none;
+     color: #000;
+    font-size: 17px;
 }
 header li:hover{
     background-color: #dea71b;
@@ -48,36 +52,33 @@ header li:hover{
 /*-----------------------SECTION--------------------------------*/
 section img{
     width: 100%;
-    height: 250px;
 }
 .block {
-    margin: 20px -120px;
-    width: 1200px;
-    height: 300px
+    margin: 20px auto;
+    width: 1000px;
+    height: 250px;
 }
 .block  a{
-    text-decoration: none;
     font-weight: bold;
     font-family: arial;
     display: block;
     font-size: 20px;
+    text-decoration: none;
 }
-.block .col-4 a:nth-child(2){
-    margin: 20px 0;
+.block .span4 a:nth-child(2){
+    margin: 10px 0;
+    color: #000;
 }
-.block img:hover{
-    padding: 10px;
-}
-.block a:nth-child(2):hover{
-    color: #dea71b;
+.block .span4 a:hover{
+    padding: 5px;
 }
 /*--------------------------------------------------------------------------------FOOTER*/
+
 footer{
     background-color:#272020;
-    padding: 30px;
 }
 footer p{
     color: #fff;
-    margin-left: -110px;
+    padding: 20px;
 }
 
